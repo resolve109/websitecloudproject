@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddharth Patel Portfolio</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!-- light/dark mode icons -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<special-header></special-header>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">SP</a>
+
+        <div class='bx bx-menu' id="menu-icon"></div>
+
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#skill">Skills</a>
+            <a href="index.html#timeline-section">Professional History</a>
+            <a href="index.html#Projects">Projects</a>
+            
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+            <div class="theme-switch">
+                <input type="checkbox" id="dark-mode-toggle">
+                <label for="dark-mode-toggle">
+                    <i class="fas fa-sun"></i> <!-- Sun icon for light mode -->
+                    <i class="fas fa-moon"></i> <!-- Moon icon for dark mode -->
+                    <span class="slider round"></span>
+                </label>
+            </div>
+         </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello,</h3>
+            <h1>I'm Siddharth Patel</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Thank you for visiting, take a look around.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/sp109/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/1B84IJpxK4FudiLmTGVtvS6RJGcB2gRd8/view?usp=sharing" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/home.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Cloud Solutions Architect-in-Training & Avid Explorer of Life's Many Facets</h3>
+            <p>Hello world! I'm Siddharth Patel, but you can also call me a tech enthusiast, a history buff, and a lover of life's diverse experiences. While my professional journey has led me through the realms of cybersecurity and cloud technology, my personal path is equally rich and varied.</p>
+            <p>As an avid gamer, my journey began with a SEGA Genesis at the age of 10, and eventually evolved into building my own PCs. I'm currently on the quest for the perfect PC setup that I can proudly call my 'tech offspring' for the next decade.</p>
+            <p>When I'm not immersed in technology, you can find me indulging in my passion for golf, practicing swings at the range, or playing a full 18. It's not just a sport; it's my zen time.</p>
+            <p>My pup, a dog named Rani, is often by my side, sharing in life's adventures and quiet(very loud actually) moments alike (you can find videos of her in the gallery)</p>
+            <p>My fascination with world history and cultures often leads me down the YouTube rabbit hole, watching documentaries and expanding my understanding of the world. It's a testament to my belief that learning never stops.</p>
+            <p>Speaking of learning, I'm always working on self-improvement. Recent reads include "Crystal Clear Communication," "The Subtle Art of Not Giving a F*ck," and "Unlimited Memory." These books reflect my commitment to growth, whether in communication, mindset, or cognitive skills.</p>
+            <p>And when I encounter something I don't know, I'm upfront about it. But that doesn't stop me. With resources like Google, ChatGPT, books, podcasts, and YouTube at my disposal, I'm always ready to learn, adapt, and provide answers. Ignorance isn't a barrier; it's a starting point for discovery.</p>
+            <p>Welcome to my world, where technology, gaming, history, and a quest for knowledge blend into a unique journey. It's a path of continuous learning, exploring, and appreciating the myriad aspects of life. Dive in and explore!</p>
+            <p>Feel free to view the <a href="#Projects">Projects</a> section on anything I am currently working on. Latest project is this website which is discussed further in detail of its creation.</p>
+        </div>
+    </section>
+
+    <!-- Skills section design -->
+    <section class="skill" id="skill">
+        <h2 class="heading">Continous Learning</h2>
+        <div class="skills">
+            <div class="skill">
+                <div class="skill-name">HTML</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="90%" style="max-width:90%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">CSS</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="60%" style="max-width:60%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="30%" style="max-width:30%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">SQL</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="70%" style="max-width:70%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">Python</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="30%" style="max-width:30%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">Amazon Web Services</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="60%" style="max-width:60%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">Microsoft Azure</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="45%" style="max-width:45%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">Microsoft Purview</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="95%" style="max-width:95%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">CloudShell | PowerShell | Bash</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="70%" style="max-width:70%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">JSON</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="60%" style="max-width:60%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">YAML</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="30%" style="max-width:30%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">Identity Access Management | Active Directory</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="70%" style="max-width:70%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">RESTFul API Integration</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="50%" style="max-width:50%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">DemandTools</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="90%" style="max-width:90%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">Netwrix Auditor</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="95%" style="max-width:95%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">Automation</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="60%" style="max-width:60%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">Jenkins - Blue Ocean</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="80%" style="max-width:80%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">Windows | Windows Server | Troubleshooting</div>
+                <div class="skill-bar">
+                    <div class="skill-per" per="85%" style="max-width:85%"></div>
+                </div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">Oracle 21c</div>
+            <div class="skill-bar">
+                <div class="skill-per" per="30%" style="max-width:30%"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">OwnBackUp</div>
+            <div class="skill-bar">
+                <div class="skill-per" per="80%" style="max-width:80%"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">Salesforce</div>
+            <div class="skill-bar">
+                <div class="skill-per" per="50%" style="max-width:50%"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">Descartes Visual Compliance</div>
+            <div class="skill-bar">
+                <div class="skill-per" per="70%" style="max-width:70%"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">Linux</div>
+            <div class="skill-bar">
+                <div class="skill-per" per="40%" style="max-width:40%"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">GitHub</div>
+            <div class="skill-bar">
+                <div class="skill-per" per="70%" style="max-width:70%"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Professional History section design -->
+    <section class="timeline-section hidden" id="timeline-section">
+    <section class="timeline-section" id="timeline-section">
+        <h2 class="heading">Professional History</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2017</div>
+                <div class="timeline-content">
+                    <h3>University of South Florida</h3>
+                    <p>Graduated with Bachelors in Business Analytics and Information Systems. Spent 1 year working seasonal IT jobs and traveling.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2018</div>
+                <div class="timeline-content">
+                    <h3>Contract work and Traveling</h3>
+                    <p>Seasonal contracting for IT Technician, Product Support Specialist and Fraud Analyst. Spent time adventuring and gain new life experiences, understand more about other cultures and history.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2018-2022</div>
+                <div class="timeline-content">
+                    <h3>AgileThought</h3>
+                    <p>My role as a Monitoring & Application Support Specialist encompassed a diverse range of responsibilities, serving SMBs, Non-Profits, and Fortune 500 companies. I was instrumental in training teams, updating policies in Active Directory, and developing knowledge base articles. A significant part of my tenure involved taking on additional responsibilities with Azure. As the sole representative in the CI/CD pipeline for a specific client under the Statement of Work (SOW), I managed the deployment of updated code to standby and production environments and oversaw the Azure tenant management. This role also included generating detailed reports and serving as the primary support representative, handling all technical aspects for the client. My tenure at AgileThought has laid out a solid foundational understanding of IT services and best practices.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022-2023</div>
+                <div class="timeline-content">
+                    <h3>KnowBe4</h3>
+                    <p>My role as a <strong>Database Manager</strong> at KnowBe4 allowed me to delve deep into managing and overseeing dataflow integrations, showcasing my ability to manage and protect critical data assets. These experiences have ingrained in me a meticulous approach to data handling and privacy. Minor achievement in completing an estimated total of ~2600 cases between 2022-Q4 and 2023-Q1.</p>
+                </div>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2023</div>
+            <div class="timeline-content">
+                <h3>Contracting and Continous Learning</h3>
+                <p>As a <strong>Jr. Data Security Engineer</strong> at Abacode, I have honed my skills in safeguarding sensitive data, evident from my impactful tenure at Abacode where I worked on crucial projects involving data security and encryption protocols. My expertise was further solidified by achieving the Microsoft Certified: Information Protection and Compliance Administrator Associate, marking me as a key player in the field.</p>
+                <br /><p>I strive for personal and professional growth and development, I am currently focusing on obtaining AWS - Solutions Architect and AWS DevOps/CISSP following after.</p>
+            </div>
+        </div>
+
+
+    </section>
+    <section class="Projects" id="Projects">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="Projects-container">
+            <div class="Projects-box">
+                <img src="images/portfolio1.jpg" alt="">
+                <div class="Projects-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ratione.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="Projects-box">
+                <img src="images/portfolio2.jpg" alt="">
+                <div class="Projects-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ratione.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="Projects-box">
+                <img src="images/portfolio3.jpg" alt="">
+                <div class="Projects-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ratione.</p>
+                    <a href="project.html"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="Projects-box">
+                <img src="images/portfolio4.jpg" alt="">
+                <div class="Projects-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ratione.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="Projects-box">
+                <img src="images/portfolio5.jpg" alt="">
+                <div class="Projects-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ratione.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="Projects-box">
+                <img src="images/portfolio6.jpg" alt="">
+                <div class="Projects-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ratione.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+           <section class="gallery" id="gallery">
+        <h2 class="heading"><span>Gallery</span></h2>
+        <div class="gallery-container">
+            <style>
+                .gallery-container img {
+                    width: 100%;
+                    height: auto;
+                }
+
+                .gallery-container th {
+                    font-size: 2em;
+                    background-color: #00ffff;
+                }
+
+                .gallery-container table {
+                    width: 75%;
+                    table-layout: fixed; /* Ensures equal column widths */
+                }
+
+                .gallery-container td {
+                    width: 33.33%; /* Each cell is a third of the table width */
+                }
+            </style>
+            <table>
+                <tr>
+                    <td>
+                        <a href="images/Cert1.png" class="image-link">
+                            <img src="images/Cert1.png" alt=" Microsoft Certified: Information Protection and Compliance Administrator Associate">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="images/Cert2.png" class="image-link">
+                            <img src="images/Cert2.png" alt="Image 2 Description">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="images/Cert3.png" class="image-link">
+                            <img src="images/Cert3.png" alt="Image 3 Description">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="images/Cert4.png" class="image-link">
+                            <img src="images/Cert4.png" alt="Image 4 Description">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="images/Cert5.png" class="image-link">
+                            <img src="images/Cert5.png" alt="Image 5 Description">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="images/Cert5.png" class="image-link">
+                            <img src="images/Cert5.png" alt="Image 5 Description">
+                        </a>
+                    </td>
+                    
+                    <!-- Add additional rows and cells as needed -->
+                </tr>
+                <!-- Additional rows here -->
+            </table>
+        </div>
+    </section>
+
+
+<special-footer></special-footer>
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Siddharth Patel | All Rights Reserved.</p>
+            <p>Hosted on AWS</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+ <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h3 class="heading">Contact Me! @<span>Siddharth.patel109@outlook.com</span></h2>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+    
+
+</body>
+
+</html>
