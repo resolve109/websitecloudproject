@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddharth Patel Portfolio</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!-- light/dark mode icons -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="index.html" class="logo">SP</a>
+
+        <div class='bx bx-menu' id="menu-icon"></div>
+
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#skill">Skills</a>
+            <a href="index.html#timeline-section">Professional History</a>
+            <a href="index.html#Projects">Projects</a>
+            
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+            <div class="theme-switch">
+                <input type="checkbox" id="dark-mode-toggle">
+                <label for="dark-mode-toggle">
+                    <i class="fas fa-sun"></i> <!-- Sun icon for light mode -->
+                    <i class="fas fa-moon"></i> <!-- Moon icon for dark mode -->
+                    <span class="slider round"></span>
+                </label>
+            </div>
+         </nav>
+    </header>
+
+<section>
+    <article class="blog-post">
+        <header>
+            <h1>Portfolio Website</h1>
+            <p class="post-meta">Published 11/15/2023</p>
+        </header>
+        <div class="image-container">
+            <img src="images/portfolio1.jpg" alt="Featured Image" class="featured-image">
+        </div>
+                <section class="post-content">
+                    <article>
+                        <header>
+                            <h2>My Journey in Cybersecurity and Cloud Computing</h2>
+                        </header>
+                        <p>As a tech native who has grown up with the digital age, my journey through the realms of cybersecurity and technology has been both fascinating and challenging. Recently, I've taken a significant leap into the world of cloud computing, aiming to consolidate and showcase the skills I've honed over the years. This blog post is about my project – a dynamic website that not only serves as a portfolio of my work but also as a testament to my continuous learning journey, especially as I prepare for the AWS Solutions Architect Associate exam.</p>
+                        <br><br>
+                        <h3>The Genesis of the Project</h3>
+                        <p>The idea was simple yet ambitious: create a website where I could not only showcase my past and current projects but also continuously update it with new ones. This website would be a living portfolio, reflecting my growth and learning in real-time. As someone who's been deeply involved in data security and is now venturing into cloud computing, this project was the perfect canvas to paint my professional story.</p>
+                        <br><br>
+                        <h3>Building the Foundation</h3>
+                        <p>The initial phase involved laying down the groundwork – setting up a basic structure using HTML, CSS, and JavaScript. I wanted the website to be clean, navigable, and reflective of my personal style. As the website took shape, I realized it was more than just a showcase; it was a platform for experimentation and learning.</p>
+                        <br><br>
+                        <h3>Integrating Cloud Technologies</h3>
+                        <p>With my focus shifting towards cloud computing, specifically AWS, I planned to integrate various cloud services into the website. This integration would not only enhance the website's functionality but also serve as practical experience in utilizing cloud resources. The goal is to make the website not just a portfolio but a demonstration of my skills in cloud architecture and management.</p>
+                        <br><br>
+                        <h3>Setting Up AWS and Continuous Deployment</h3>
+                        <p>Here's a detailed guide to help you set up AWS for hosting and managing your website, and to integrate continuous deployment with GitHub:
+                            <ol>
+                                <li><strong>Setting up AWS VPC:</strong> Create a new VPC, subnets, Internet Gateway, and modify route tables for external traffic.</li>
+                                <li><strong>Hosting Your Website:</strong> Launch an EC2 instance, set up security groups, allocate an Elastic IP, and connect to your instance to set up a web server.</li>
+                                <li><strong>Setting up AWS CodeDeploy:</strong> Install the CodeDeploy agent, create an application and deployment group, and set up a service role in IAM.</li>
+                                <li><strong>Integrating with GitHub:</strong> Create an IAM user for programmatic access, store credentials in GitHub Secrets, set up GitHub Actions, and prepare a deployment script.</li>
+                                <li><strong>Continuous Deployment Workflow:</strong> Push changes to GitHub, create pull requests, and let GitHub Actions trigger AWS CodeDeploy for automated deployment.</li>
+                                <li><strong>Monitoring and Maintenance:</strong> Regularly monitor your instance and deployment processes, and update security settings as necessary.</li>
+                                <li><strong>Integrating new services:</strong> I have plans to add additional services and link them to the portfolio website, maintaining low-monthly costs while periodically finding optimal deployment processes for my projects</li>
+                               
+                            </ol>
+                        </p>
+                        <br><br>
+                        <h3>Continuous Learning and Adding Projects</h3>
+                        <p>The most exciting aspect of this website is its dynamic nature. As I continue to learn and work on new projects, the website will be updated periodically. This approach keeps the content fresh and gives visitors a reason to return. It's a way of documenting my journey in real-time, showcasing both successes and learning experiences.</p>
+                        <br><br>
+                        <h3>Preparing for the AWS SA Associate Exam</h3>
+                        <p>While working on this project, I'm also diligently preparing for the AWS Solutions Architect Associate exam. This certification is a crucial step in my career, as it will validate my skills and knowledge in designing distributed systems on AWS. The study process is intense, but it's incredibly rewarding to see the concepts come to life through my website.</p>
+                        <br><br>
+                        <h3>Looking Ahead: A Future Full of Possibilities</h3>
+                        <p>This project is just the beginning. As I delve deeper into cloud computing and continue to expand my skill set, the possibilities seem endless. The website will evolve, and so will my capabilities. It's an exciting journey, and I'm eager to see where it leads.</p>
+                        <br><br>
+                        <footer>
+                            <p>In conclusion, this website is more than just a project; it's a reflection of my passion for technology and my commitment to continuous learning. It's a bridge connecting my past experiences with future aspirations. As I navigate through the complexities of cloud computing and prepare for the AWS SA Associate exam, I'm confident that this project will be a cornerstone of my professional growth.</p>
+                        </footer>
+                    </article>
+                    
+            <div class="gallery-container">
+                <style>
+                    .gallery-container img {
+                        width: 100%;
+                        height: auto;
+                    }
+    
+                    .gallery-container th {
+                        font-size: 2em;
+                        background-color: #00ffff;
+                    }
+    
+                    .gallery-container table {
+                        width: 75%;
+                        table-layout: fixed; /* Ensures equal column widths */
+                    }
+    
+                    .gallery-container td {
+                        width: 33.33%; /* Each cell is a third of the table width */
+                    }
+                </style>
+            <table>
+                <tr>
+                    <td>
+                        <a href="images/project1-1.png" class="image-link">
+                            <img src="images/project1-1.png" alt=" Microsoft Certified: Information Protection and Compliance Administrator Associate">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="images/Cert2.png" class="image-link">
+                            <img src="images/project1-2.png" alt="Image 2 Description">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="images/Cert3.png" class="image-link">
+                            <img src="images/project1-3.png" alt="Image 3 Description">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="images/Cert4.png" class="image-link">
+                            <img src="images/project1-4.png" alt="Image 4 Description">
+                        </a>
+                    </td>
+                </tr>
+                <!--<tr>
+                    <td>
+                        <a href="images/Cert5.png" class="image-link">
+                            <img src="images/Cert5.png" alt="Image 5 Description">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="images/Cert5.png" class="image-link">
+                            <img src="images/Cert5.png" alt="Image 5 Description">
+                        </a>
+                    </td>
+                    
+                     Add additional rows and cells as needed 
+                </tr>
+                 Additional rows here -->
+            </table>
+        </div>
+        </section>
+    </article>
+</section>
+
+<special-footer></special-footer>
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Siddharth Patel | All Rights Reserved.</p>
+            <p>Hosted on AWS</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+ <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h3 class="heading">Contact Me! @<span>Siddharth.patel109@outlook.com</span></h2>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+
+<special-footer></special-footer>
+</html>
